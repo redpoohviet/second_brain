@@ -1,0 +1,6 @@
+[
+  {"date": "Day -5", "description": "단일 작업 흐름 유지", "avg_delay_minutes": 0.1, "cumulative_cost_hours": 0.2},
+  {"date": "Day -3", "description": "외부 메신저 알림 발생", "avg_delay_minutes": 1.5, "cumulative_cost_hours": 1.8},
+  {"date": "Day -1", "description": "업무/개인/정보 전환 빈번", "avg_delay_minutes": 4.2, "cumulative_cost_hours": 7.5},
+  {"date": "Today (Failure)", "description": "비체계적 프로세스 반복", "avg_delay_minutes": 8.9, "cumulative_cost_hours": 15.0}
+]

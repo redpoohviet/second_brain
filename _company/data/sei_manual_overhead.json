@@ -1,0 +1,6 @@
+[
+  {"date": "Day -5", "description": "자동화된 API 연동 상태", "estimated_loss_hours": 1.0, "transaction_count": 80},
+  {"date": "Day -3", "description": "수동 데이터 복사/붙여넣기 필요", "estimated_loss_hours": 4.5, "transaction_count": 200},
+  {"date": "Day -1", "description": "다중 시스템 간 수작업 검증 요구", "estimated_loss_hours": 12.8, "transaction_count": 650},
+  {"date": "Today (Failure)", "description": "비표준 프로세스 고착화", "estimated_loss_hours": 35.0, "transaction_count": 1500}
+]

@@ -1,0 +1,6 @@
+[
+  {"date": "Day -5", "description": "최적 환경 (초점 집중)", "focus_duration_percent": 95, "system_status": "Stable"},
+  {"date": "Day -3", "description": "작은 방해 요소 노출", "focus_duration_percent": 82, "system_status": "Minor Fluctuation"},
+  {"date": "Day -1", "description": "잦은 알림 및 전환 발생", "focus_duration_percent": 65, "system_status": "Warning"},
+  {"date": "Today (Failure)", "description": "구조적 오류로 인한 집중력 상실", "focus_duration_percent": 38, "system_status": "Critical Failure"}
+]
