@@ -1,0 +1,50 @@
+/* Jinny's Lab Core Design Variables */
+:root {
+    /* Color Palette */
+    --color-primary-bg: #FAF0E6; /* Neutral Earth Tone */
+    --color-accent-a: #B04D3A; /* Vintage Brown - Hooking/Critical */
+    --color-accent-b: #5E6B5F; /* Deep Sage Green - Process/CTA */
+    --color-text-dark: #3C3028; /* Dark Brown - Body Text */
+
+    /* Typography */
+    --font-family-primary: 'Pretendard', 'Noto Sans KR', sans-serif;
+    --font-size-h1: 4rem; /* Large impact for title cards */
+    --font-size-body: 1.2rem;
+
+    /* Layout Dimensions (Mobile Optimized) */
+    --width-container: 1080px;
+    --height-container: 1920px;
+
+    /* Component Sizes */
+    --logo-w: 120px;
+    --logo-h: 40px;
+}
+
+/* Animation Timing Constants */
+.animate-appear {
+    animation: fadeInEaseOut 0.8s ease-out forwards;
+}
+@keyframes fadeInEaseOut {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* OEA Flowchart Interaction State */
+.step-active:hover {
+    background-color: var(--color-accent-a); /* Hover effect on the current step */
+    transform: scale(1.02);
+    box-shadow: 0 8px 15px rgba(176, 77, 58, 0.2);
+}
+
+/* SVG Path for Arrow Animation (Example) */
+#process-arrow {
+    stroke: var(--color-accent-b);
+    stroke-width: 8;
+    /* This property is key for the drawing animation effect */
+    stroke-dasharray: 1000; 
+    stroke-dashoffset: 1000;
+    animation: drawPath 1s ease-in-out forwards;
+}
+@keyframes drawPath {
+    to { stroke-dashoffset: 0; }
+}
