@@ -1,0 +1,42 @@
+[
+  {
+    "stage": 1,
+    "time_point": "T+0h (초기 관찰)",
+    "description": "정상적인 초기 운영 단계. 시스템은 큰 오류 없이 작동하나, 비효율적 프로세스들이 누적되기 시작하는 지점.",
+    "observed_issue": "정보 파편화 및 수동 데이터 입력 의존성",
+    "sei_value": 15.2,
+    "trend_comment": "낮음 (Baseline). 시스템이 가진 구조적 '느슨함'을 보여줌."
+  },
+  {
+    "stage": 2,
+    "time_point": "T+3h (문제점 인지)",
+    "description": "첫 번째 병목 지점 발견. 여러 팀/시스템 간의 데이터 연동 실패가 반복되며 시간적 손실이 가시화됨.",
+    "observed_issue": "A 시스템과 B 시스템 간의 수작업 트랜스퍼 요구",
+    "sei_value": 38.5,
+    "trend_comment": "상승 (Initial Spike). 문제 해결의 필요성을 처음 자각하는 단계."
+  },
+  {
+    "stage": 3,
+    "time_point": "T+12h (위기 심화)",
+    "description": "누적된 오류가 폭발적으로 증가. 핵심 프로세스가 마비 상태에 이르며, 시스템 전반의 신뢰도가 하락하는 지점.",
+    "observed_issue": "데이터 불일치로 인한 잘못된 의사결정 발생",
+    "sei_value": 78.9,
+    "trend_comment": "급상승 (Critical Spike). '이대로는 안 된다'는 절박함이 필요한 임계점."
+  },
+  {
+    "stage": 4,
+    "time_point": "T+24h (최대 혼란)",
+    "description": "시스템 구조 자체의 근본적 오류가 드러남. 외부 개입(AI 에이전트 도입 등) 없이는 복구가 불가능해 보이는 최대 위기 지점.",
+    "observed_issue": "단일 실패 지점(Single Point of Failure) 노출",
+    "sei_value": 95.1,
+    "trend_comment": "정점 (Peak Crisis). 가장 높은 수치로, 혁신적 해결책을 요구하는 시나리오."
+  },
+  {
+    "stage": 5,
+    "time_point": "T+48h (개입 및 개선)",
+    "description": "새로운 구조(자동화/에이전트)가 도입되어 시스템적 오류 지표를 낮추기 시작함. 프로세스가 재정립되는 과정.",
+    "observed_issue": "시스템 간의 데이터 자동 연동 파이프라인 구축",
+    "sei_value": 45.3,
+    "trend_comment": "하락 (Recovery). 문제를 해결하는 '노력'과 그 효과를 보여주는 단계."
+  }
+]
