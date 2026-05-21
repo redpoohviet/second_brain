@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- Python 환경 및 API 연동 라이브러리 정의 -->
+# Install requirements with: pip install -r requirements.txt
+# Cost Optimization: Using free tiers (Gemini, Pollinations) first before paid APIs.
+
+# Core Automation
+python-dotenv==1.0.0          # Environment variable management (.env file)
+ffmpeg-python==0.2.0          # FFmpeg command builder for step 5 (Mixer)
+playwright==1.43.0            # Browser automation for Grok Image-to-Video (Step 3)
+
+# AI & Media Processing
+google-generativeai==0.7.0    # Step 1: Script/Prompt generation (Free Credits)
+pillow==10.2.0                # Image handling & metadata
+pydub==0.25.1                 # Audio processing for TTS/Trimming
+
+# Utilities
+requests==2.31.0              # API HTTP requests
+aiohttp==3.9.0                # Async requests (optional, if using async APIs)
+openai-whisper==1.0.0         # Optional: Speech-to-text sync calculation (if needed)
+
+# System & Data Processing
+jsonschema==4.21.1            # Validate JSON outputs between steps
+pydantic==2.5.3               # Data validation and serialization
