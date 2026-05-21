@@ -13,6 +13,74 @@
       "sessionDir": "2026-05-21T03-06",
       "evidence": "완료: sessions/2026-05-21T03-06/_report.md\n- 코다리: Designer가 제공한 Tech Spec v5.0(SEI 데이터 기반의 Props, State Logic, API 정의 포함)을 분석하여, S\n\nCEO 종합 요점: 💻 코다리: SEI 기반 인터랙티브 애니메이션 컴포넌트 MVP 개발 시작합니다. Tech Spec v5.0 의 핵심 로직 (임계값 90, 상태 전이, 데이터 바인딩) 을 Verified Knowledge 에서 추출하여 프로토타입을 구축하겠습니다.\n\n먼저 프로젝트 구조와 기존 코드를 확인하고 MVP 컴포넌트를 생성하겠습니다.\n\n<list_files path",
       "completedAt": "2026-05-21T03:07:38.843Z"
+    },
+    {
+      "id": "20260521053816-ehg8",
+      "title": "**파일 경로:** `j:\\workspace\\_company\\_sessions\\2026-05-21T05-31_prototype.html`",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-05-21T05:38:16.688Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T05-33",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T05-33/_report.md\n- 레오: 구현된 인터랙티브 애니메이션 프로토타입을 기반으로, 유튜브 쇼츠에 최적화된 영상의 시간 코드별 스토리보드(P_FRUSTRATION → C_SYS\n- Designer: 개발된 애니메이션의 비주얼 가이드라인(네온/글리치 스타일)을 유튜브 숏폼 및 인스타그램 리얼스에 적용할 수 있도록, 최종 영상의 통일된 컬러 팔\n- Writer: 숏폼 영상의 후킹(Hook)에 최적화된 3초 이내의 도입부 카피라이팅과, 본문에서 '시스템 오류'와 '해결책 제시'를 감성적으로 연결하는 스크립\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 구현된 인터랙티브 애니메이션 프로토타입을 기반으로, 유튜브 쇼츠에 최적화된 영상의 시간 코드별 스토리보드(P_FRUSTRATION → C_SYSTEM_ISSUE → RESOLUTION)를 상세히 작성하고, 각 단계에서 시각적 연출 포인트를",
+      "completedAt": "2026-05-21T05:39:13.356Z"
+    },
+    {
+      "id": "20260521053816-u8mq",
+      "title": "**촬영 도구:** OBS Studio 또는 스마트폰 화면 녹화 기능",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-05-21T05:38:16.699Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T05-33",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T05-33/_report.md\n- 레오: 구현된 인터랙티브 애니메이션 프로토타입을 기반으로, 유튜브 쇼츠에 최적화된 영상의 시간 코드별 스토리보드(P_FRUSTRATION → C_SYS\n- Designer: 개발된 애니메이션의 비주얼 가이드라인(네온/글리치 스타일)을 유튜브 숏폼 및 인스타그램 리얼스에 적용할 수 있도록, 최종 영상의 통일된 컬러 팔\n- Writer: 숏폼 영상의 후킹(Hook)에 최적화된 3초 이내의 도입부 카피라이팅과, 본문에서 '시스템 오류'와 '해결책 제시'를 감성적으로 연결하는 스크립\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 구현된 인터랙티브 애니메이션 프로토타입을 기반으로, 유튜브 쇼츠에 최적화된 영상의 시간 코드별 스토리보드(P_FRUSTRATION → C_SYSTEM_ISSUE → RESOLUTION)를 상세히 작성하고, 각 단계에서 시각적 연출 포인트를",
+      "completedAt": "2026-05-21T05:39:13.364Z"
+    },
+    {
+      "id": "20260521053816-pafw",
+      "title": "**브라우저 설정:** 모바일 뷰 (Chrome DevTools) 로 실행하여 자연스러운 터치 UI 확인 후 촬영",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-05-21T05:38:16.708Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T05-33",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T05-33/_report.md\n- 레오: 구현된 인터랙티브 애니메이션 프로토타입을 기반으로, 유튜브 쇼츠에 최적화된 영상의 시간 코드별 스토리보드(P_FRUSTRATION → C_SYS\n- Designer: 개발된 애니메이션의 비주얼 가이드라인(네온/글리치 스타일)을 유튜브 숏폼 및 인스타그램 리얼스에 적용할 수 있도록, 최종 영상의 통일된 컬러 팔\n- Writer: 숏폼 영상의 후킹(Hook)에 최적화된 3초 이내의 도입부 카피라이팅과, 본문에서 '시스템 오류'와 '해결책 제시'를 감성적으로 연결하는 스크립\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 구현된 인터랙티브 애니메이션 프로토타입을 기반으로, 유튜브 쇼츠에 최적화된 영상의 시간 코드별 스토리보드(P_FRUSTRATION → C_SYSTEM_ISSUE → RESOLUTION)를 상세히 작성하고, 각 단계에서 시각적 연출 포인트를",
+      "completedAt": "2026-05-21T05:39:13.372Z"
+    },
+    {
+      "id": "20260521053816-azom",
+      "title": "**음원:** 긴장감 있는 배경음악 (Glitch/Synthwave 계열)",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-05-21T05:38:16.715Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T05-33",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T05-33/_report.md\n- 레오: 구현된 인터랙티브 애니메이션 프로토타입을 기반으로, 유튜브 쇼츠에 최적화된 영상의 시간 코드별 스토리보드(P_FRUSTRATION → C_SYS\n- Designer: 개발된 애니메이션의 비주얼 가이드라인(네온/글리치 스타일)을 유튜브 숏폼 및 인스타그램 리얼스에 적용할 수 있도록, 최종 영상의 통일된 컬러 팔\n- Writer: 숏폼 영상의 후킹(Hook)에 최적화된 3초 이내의 도입부 카피라이팅과, 본문에서 '시스템 오류'와 '해결책 제시'를 감성적으로 연결하는 스크립\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 구현된 인터랙티브 애니메이션 프로토타입을 기반으로, 유튜브 쇼츠에 최적화된 영상의 시간 코드별 스토리보드(P_FRUSTRATION → C_SYSTEM_ISSUE → RESOLUTION)를 상세히 작성하고, 각 단계에서 시각적 연출 포인트를",
+      "completedAt": "2026-05-21T05:39:13.381Z"
     }
   ]
 }
