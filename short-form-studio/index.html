@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OEA SeI Simulator MVP</title>
+    <style>
+        /* 🎨 비주얼 가이드라인: 다크 모드 + 네온/글리치 */
+        :root {
+            --bg-color: #050505;
+            --text-primary: #ffffff;
+            --accent-neon: #ff3e3e; /* SEI 임계치 초과 시 글리치 레드 */
+            --accent-blue: #00f2ff; /* 데이터 플로우 블루 */
+            --font-mono: 'Courier New', monospace;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            overflow-x: hidden;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* 🎬 숏폼 플레이어 뷰포트 */
+        .viewport {
+            flex-grow: 1;
+            position: relative;
+            overflow: hidden;
+            background: radial-gradient(circle at center, #1a1a1a 0%, #000 100%);
+        }
+
+        canvas#sei-visualizer {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* 📝 자막 오버레이 영역 */
+        .subtitle-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            text-align: center;
+            pointer-events: none; /* 클릭 방해 안 함 */
+        }
+
+        .subtitle-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+            white-space: nowrap;
+        }
+
+        /* ⚠️ 경고 오버레이 (임계치 초과 시) */
+        .warning-overlay {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 15px;
+            background: rgba(255, 62, 62, 0.9);
+            border-radius: 4px;
+            color: #fff;
+            font-family: var(--font-mono);
+            display: none; /* 기본적으로 숨김 */
+            z-index: 10;
+        }
+
+        /* 🧩 UI 컨트롤 패널 */
+        .controls-panel {
+            padding: 20px;
+            background: #111;
+            border-top: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        button {
+            background: var(--accent-blue);
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        .status-indicator {
+            font-family: var(--font-mono);
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="viewport">
+            <!-- 📊 SEI 데이터 시각화 캔버스 -->
+            <canvas id="sei-visualizer"></canvas>
+            
+            <!-- ⚠️ 경고 오버레이 (임계치 초과 시) -->
+            <div id="warning-overlay" class="warning-overlay">
+                CRITICAL: SYSTEM ERROR DETECTED<br>
+                SEI: <span id="sei-value-disp">0</span>%<br>
+                CONTROL LOST
+            </div>
+
+            <!-- 📝 자막 오버레이 -->
+            <div class="subtitle-overlay">
+                <div id="subtitle" class="subtitle-text"></div>
+            </div>
+        </div>
+
+        <!-- 🎛️ 컨트롤 패널 -->
+        <div class="controls-panel">
+            <div>
+                <span style="font-family: var(--font-mono); color: #666;">OEA Simulator V1.0</span>
+            </div>
+            <button id="btn-start">시뮬레이션 시작 (Start)</button>
+            <div class="status-indicator" id="status-display">Status: Idle</div>
+        </div>
+    </div>
+
+    <!-- 🧠 로직 스크립트 -->
+    <script type="module" src="app.js"></script>
+</body>
+</html>

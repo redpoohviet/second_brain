@@ -1,0 +1,17 @@
+{
+  "name": "short-form-sei-simulator",
+  "version": "1.0.0",
+  "description": "OEA 프로세스 시뮬레이터 및 숏폼 제작 도구 (MVP)",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
