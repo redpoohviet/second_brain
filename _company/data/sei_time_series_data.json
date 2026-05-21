@@ -1,0 +1,16 @@
+{
+  "description": "시간 경과에 따른 시스템 오류 지표(SEI) 데이터셋 (임계값 90 초과 시 글리치 발생)",
+  "metadata": {
+    "unit": "Time Elapsed Hours",
+    "critical_threshold": 90,
+    "source": "Researcher/Designer Tech Spec v5.0"
+  },
+  "dataPoints": [
+    {"time_h": 0, "state": "Observation (Low SEI)", "sei_value": 15.2, "description": "Initial state: Low efficiency."},
+    {"time_h": 4, "state": "Extraction Attempt", "sei_value": 35.8, "description": "Mild inefficiency detected."},
+    {"time_h": 8, "state": "Process Bottleneck", "sei_value": 60.1, "description": "System bottleneck increasing friction."},
+    {"time_h": 12, "state": "Critical Warning (Pre-Spike)", "sei_value": 85.9, "description": "SEI approaching critical threshold 90."},
+    {"time_h": 13, "state": "💥 SPIKE POINT (Glitch Triggered)", "sei_value": 98.7, "description": "System Failure Detected: SEI > 90. Control loss event."},
+    {"time_h": 15, "state": "Automation/Resolution", "sei_value": 45.0, "description": "Solution applied; stabilizing system."}
+  ]
+}
