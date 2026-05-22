@@ -126,3 +126,4 @@ _CEO 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 
 - [2026-05-22] 로컬 AI 엔진 FLIX를 사용하기위해선 어떤 방법이 있을까 → 보고서 sessions/2026-05-22T18-27/_report.md
 - [2026-05-22] 기획은 누가 담당하지? → 보고서 sessions/2026-05-22T18-30/_report.md
 - [2026-05-22] J:\workspace\_company\Autoshorts 폴더를 분석해줘 → 보고서 sessions/2026-05-22T18-35/_report.md
+- [2026-05-22] J:\workspace\_company\Autoshorts 폴더를 분석해줘 → 보고서 sessions/2026-05-22T18-37/_report.md
