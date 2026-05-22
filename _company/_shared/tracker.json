@@ -285,6 +285,36 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-22T03-50/_report.md\n- Designer: 최종 확정된 프로덕션 기술 사양서(V1.0)와 Concept A 디자인 스펙을 기반으로, 첫 번째 유튜브 쇼츠 영상에 사용될 모든 시각적 에셋(\n- Writer: 확정된 카피라이팅 전략과 최종 스크립트(Hook, 본문, CTA)를 바탕으로, 첫 번째 영상의 유튜브 제목, 상세 설명, 그리고 인스타그램용 캡\n- 레오: Designer와 Writer가 완료한 최종 결과물(썸네일 에셋 및 카피)을 기반으로, 유튜브 업로드에 필요한 모든 메타데이터(제목, 설명, 태\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 확정된 프로덕션 기술 사양서(V1.0)와 Concept A 디자인 스펙을 기반으로, 첫 번째 유튜브 쇼츠 영상에 사용될 모든 시각적 에셋(썸네일, 모션 그래픽 등)을 실제 제작 환경에서 생성하고 시각적 품질을 즉시 검증하라.\n",
       "completedAt": "2026-05-22T03:54:43.822Z"
+    },
+    {
+      "id": "20260522050642-iw2d",
+      "title": "위 두 파일을 참고하여 유튜브 업로드용 최종 메타데이터(JSON/YAML 형식) 를 생성하세요.",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-22T05:06:42.417Z",
+      "status": "pending",
+      "sessionDir": "2026-05-22T05-05",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260522050642-izzq",
+      "title": "썸네일 디자인 팀 (Designer) 과 연결하여 시각적 구현 가이드라인과 텍스트 오버레이 위치를 확정하세요.</replace></edit_file>",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-22T05:06:42.424Z",
+      "status": "pending",
+      "sessionDir": "2026-05-22T05-05",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
