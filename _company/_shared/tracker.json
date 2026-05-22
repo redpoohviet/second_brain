@@ -295,11 +295,13 @@
         "writer"
       ],
       "createdAt": "2026-05-22T05:06:42.417Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-22T05-05",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-22T05-05/_report.md\n- Writer: 이전 작업에서 확정된 스토리보드와 디자인 방향성을 기반으로, 유튜브 영상에 최적화된 최종 스크립트(Hook, 본문, CTA) 및 상세 설명을 작\n- Designer: 최종 렌더링 맵(`final_render_map.md`)과 확정된 디자인 스펙을 기반으로, 유튜브 영상에 사용될 모든 시각적 에셋(썸네일, 모션\n- 레오: Writer와 Designer가 제공한 최종 스크립트, 썸네일 에셋 및 카피라이팅을 통합하여 유튜브 영상 업로드에 필요한 모든 메타데이터(제목,\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 이전 작업에서 확정된 스토리보드와 디자인 방향성을 기반으로, 유튜브 영상에 최적화된 최종 스크립트(Hook, 본문, CTA) 및 상세 설명을 작성하고, 인스타그램용 캐러셀 카피라이팅을 통합하여 배포 준비 상태로 정리하세요.\n> 🔧 **도구",
+      "completedAt": "2026-05-22T05:09:57.142Z"
     },
     {
       "id": "20260522050642-izzq",
@@ -310,11 +312,13 @@
         "writer"
       ],
       "createdAt": "2026-05-22T05:06:42.424Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-22T05-05",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-22T05-05/_report.md\n- Writer: 이전 작업에서 확정된 스토리보드와 디자인 방향성을 기반으로, 유튜브 영상에 최적화된 최종 스크립트(Hook, 본문, CTA) 및 상세 설명을 작\n- Designer: 최종 렌더링 맵(`final_render_map.md`)과 확정된 디자인 스펙을 기반으로, 유튜브 영상에 사용될 모든 시각적 에셋(썸네일, 모션\n- 레오: Writer와 Designer가 제공한 최종 스크립트, 썸네일 에셋 및 카피라이팅을 통합하여 유튜브 영상 업로드에 필요한 모든 메타데이터(제목,\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 이전 작업에서 확정된 스토리보드와 디자인 방향성을 기반으로, 유튜브 영상에 최적화된 최종 스크립트(Hook, 본문, CTA) 및 상세 설명을 작성하고, 인스타그램용 캐러셀 카피라이팅을 통합하여 배포 준비 상태로 정리하세요.\n> 🔧 **도구",
+      "completedAt": "2026-05-22T05:09:57.149Z"
     }
   ]
 }
