@@ -127,3 +127,4 @@ _CEO 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 
 - [2026-05-22] 기획은 누가 담당하지? → 보고서 sessions/2026-05-22T18-30/_report.md
 - [2026-05-22] J:\workspace\_company\Autoshorts 폴더를 분석해줘 → 보고서 sessions/2026-05-22T18-35/_report.md
 - [2026-05-22] J:\workspace\_company\Autoshorts 폴더를 분석해줘 → 보고서 sessions/2026-05-22T18-37/_report.md
+- [2026-05-22] 상기 폴더 분석을 반영하여 다음 액션이 어떤게 필요해? → 보고서 sessions/2026-05-22T18-40/_report.md
