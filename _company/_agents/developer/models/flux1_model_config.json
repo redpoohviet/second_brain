@@ -1,0 +1,16 @@
+{
+  "model_path": "F:\\localmodel\\models\\flux1-dev-Q4_K_S.gguf",
+  "context_length": 8192,
+  "temperature": 0.7,
+  "max_tokens": 256,
+  "api_endpoint": "/api/v1/flux1-inference",
+  "oea_integration": {
+    "observe_stage": true,
+    "extract_stage": true,
+    "automate_stage": true
+  },
+  "cost_optimization": {
+    "cache_enabled": true,
+    "fallback_model": "llama3-8b"
+  }
+}
