@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=no">
+    <title>AutoShorts SEI Visualizer - MVP</title>
+    <style>
+        /* 🎨 네온/글리치 비주얼 스타일 가이드라인 적용 */
+        :root {
+            --neon-green: #00ff9d;
+            --neon-blue: #00ffff;
+            --neon-red: #ff3366;
+            --glitch-gray: #2a2a2a;
+            --bg-color: #0f1115;
+            --font-main: 'Courier New', monospace;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--neon-green);
+            font-family: var(--font-main);
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* 🖥️ 크로스 플랫폼 자막 오버레이 */
+        .subtitle-overlay {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            z-index: 100;
+            text-shadow: 0 0 5px var(--neon-green);
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .subtitle-overlay.active {
+            opacity: 1;
+        }
+
+        /* 🌀 글리치 효과 */
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+            100% { transform: translate(0); }
+        }
+
+        .glitch-active {
+            animation: glitch 0.3s infinite;
+        }
+
+        /* 📊 SEI 데이터 시각화 */
+        #sei-container {
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #sei-bar {
+            width: 100%;
+            height: 30px;
+            background-color: var(--glitch-gray);
+            border: 2px solid var(--neon-green);
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        #sei-fill {
+            width: 0%;
+            height: 100%;
+            background-color: var(--neon-green);
+            transition: width 0.5s ease, background-color 0.3s ease;
+        }
+
+        /* 📉 P_FRUSTRATION → C_SYSTEM_ISSUE → RESOLUTION */
+        #status-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #sei-value {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* 🚨 경고 및 솔루션 */
+        #warning-message {
+            display: none;
+            color: var(--neon-red);
+            font-size: 1.2rem;
+            text-align: center;
+            padding: 10px;
+            border: 2px solid var(--neon-red);
+            margin-top: 20px;
+        }
+
+        #solution-message {
+            display: none;
+            color: var(--neon-blue);
+            font-size: 1.2rem;
+            text-align: center;
+            padding: 10px;
+            border: 2px solid var(--neon-blue);
+            margin-top: 20px;
+        }
+
+        /* 🛠️ 컨트롤 패널 (테스트용) */
+        #controls {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        button {
+            background-color: var(--glitch-gray);
+            color: var(--neon-green);
+            border: 2px solid var(--neon-green);
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 0 5px;
+            font-family: var(--font-main);
+        }
+
+        button:hover {
+            background-color: var(--neon-green);
+            color: var(--bg-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- 📊 SEI 데이터 시각화 영역 -->
+    <div id="sei-container">
+        <div id="status-text">P_FRUSTRATION (좌절)</div>
+        <div id="sei-bar"><div id="sei-fill"></div></div>
+        <div id="sei-value">0%</div>
+        
+        <!-- 🚨 경고 메시지 -->
+        <div id="warning-message">
+            ⚠️ 임계값 초과! 시스템 오류(SEI) 감지됨<br>
+            "시간 낭비는 시스템적 오류 때문"
+        </div>
+
+        <!-- ✅ 솔루션 메시지 -->
+        <div id="solution-message">
+            ✅ 해결책 제시: 시스템 구조 오류 진단<br>
+            "시스템 오류를 해결하는 방법이 있다."
+        </div>
+
+        <!-- 📝 크로스 플랫폼 자막 오버레이 -->
+        <div id="subtitle-overlay" class="subtitle-overlay"></div>
+    </div>
+
+    <!-- 🛠️ 컨트롤 패널 (테스트용) -->
+    <div id="controls">
+        <button onclick="simulateFrustration()">P_FRUSTRATION 시뮬레이션</button>
+        <button onclick="simulateSystemIssue()">C_SYSTEM_ISSUE 시뮬레이션</button>
+        <button onclick="simulateResolution()">RESOLUTION 시뮬레이션</button>
+    </div>
+
+    <!-- 🧠 SEI 로직 및 애니메이션 -->
+    <script>
+        // 📊 SEI 데이터 관리
+        let seiValue = 0;
+        let seiThreshold = 90;
+        let seiPhase = 'P_FRUSTRATION'; // P_FRUSTRATION, C_SYSTEM_ISSUE, RESOLUTION
+
+        const statusText = document.getElementById('status-text');
+        const seiFill = document.getElementById('sei-fill');
+        const seiValueDisplay = document.getElementById('sei-value');
+        const warningMessage = document.getElementById('warning-message');
+        const solutionMessage = document.getElementById('solution-message');
+        const subtitleOverlay = document.getElementById('subtitle-overlay');
+
+        // 🔄 상태 전이 및 애니메이션 루프
+        function updateSEI() {
+            seiValue += 2; // 증가 속도
+            seiFill.style.width = `${seiValue}%`;
+            seiValueDisplay.innerText = `${seiValue}%`;
+
+            // 임계값 도달 체크
+            if (seiValue >= seiThreshold) {
+                triggerCriticalError();
+            } else {
+                requestAnimationFrame(updateSEI);
+            }
+        }
+
+        // 🚨 임계값 초과 시 처리
+        function triggerCriticalError() {
+            seiPhase = 'C_SYSTEM_ISSUE';
+            statusText.innerText = 'C_SYSTEM_ISSUE (시스템 오류)';
+            seiFill.style.backgroundColor = 'var(--neon-red)';
+            warningMessage.style.display = 'block';
+
+            // 글리치 효과 적용
+            document.body.classList.add('glitch-active');
+
+            // 자막 오버레이 활성화
+            showSubtitle("⚠️ 시스템 오류 감지: 시간 낭비는 구조적 문제입니다.");
+
+            setTimeout(() => {
+                resolveSystemIssue();
+            }, 3000);
+        }
+
+        // ✅ 해결책 제시 시 처리
+        function resolveSystemIssue() {
+            seiPhase = 'RESOLUTION';
+            statusText.innerText = 'RESOLUTION (해결)';
+            seiFill.style.backgroundColor = 'var(--neon-blue)';
+            warningMessage.style.display = 'none';
+            solutionMessage.style.display = 'block';
+
+            // 글리치 효과 제거
+            document.body.classList.remove('glitch-active');
+
+            // 자막 오버레이 활성화
+            showSubtitle("✅ 해결책: 시스템 구조 오류 진단 및 수정");
+
+            seiValue = 0;
+            seiFill.style.width = '0%';
+            seiValueDisplay.innerText = '0%';
+        }
+
+        // 📝 크로스 플랫폼 자막 오버레이 표시
+        function showSubtitle(text) {
+            subtitleOverlay.innerText = text;
+            subtitleOverlay.classList.add('active');
+
+            setTimeout(() => {
+                subtitleOverlay.classList.remove('active');
+            }, 4000);
+        }
+
+        // 🧪 시뮬레이션 함수 (컨트롤 패널용)
+        function simulateFrustration() {
+            seiValue = 0;
+            seiPhase = 'P_FRUSTRATION';
+            statusText.innerText = 'P_FRUSTRATION (좌절)';
+            seiFill.style.backgroundColor = 'var(--neon-green)';
+            warningMessage.style.display = 'none';
+            solutionMessage.style.display = 'none';
+            document.body.classList.remove('glitch-active');
+            
+            // 초기 자막
+            showSubtitle("😤 좌절: 내가 왜 이렇게 힘들까?");
+            
+            updateSEI();
+        }
+
+        function simulateSystemIssue() {
+            seiValue = 100;
+            seiPhase = 'C_SYSTEM_ISSUE';
+            statusText.innerText = 'C_SYSTEM_ISSUE (시스템 오류)';
+            seiFill.style.backgroundColor = 'var(--neon-red)';
+            warningMessage.style.display = 'block';
+            document.body.classList.add('glitch-active');
+            
+            // 글리치 효과 적용
+            document.body.classList.add('glitch-active');
+
+            showSubtitle("⚠️ 시스템 오류 감지: 시간 낭비는 구조적 문제입니다.");
+        }
+
+        function simulateResolution() {
+            seiPhase = 'RESOLUTION';
+            statusText.innerText = 'RESOLUTION (해결)';
+            seiFill.style.backgroundColor = 'var(--neon-blue)';
+            warningMessage.style.display = 'none';
+            solutionMessage.style.display = 'block';
+            
+            // 글리치 효과 제거
+            document.body.classList.remove('glitch-active');
+
+            showSubtitle("✅ 해결책: 시스템 구조 오류 진단 및 수정");
+        }
+
+        // 🚀 초기 실행 시 P_FRUSTRATION 상태 설정
+        window.onload = function() {
+            simulateFrustration();
+        };
+    </script>
+</body>
+</html>
+<create_file path="j:\workspace\_company\AutoShorts\.env.example">
+# 📋 AutoShorts 환경 변수 설정 예시
+
+# 🔐 API 키 (실제 값은 .env 파일에서 관리)
+STITCH_API_KEY=your_stitch_api_key_here
+GOOGLE_ANALYTICS_ID=G-XXXXX
+RECAPTCHA_SITE_KEY=your_recaptcha_site_key
+
+# 🎨 비주얼 스타일 가이드라인
+NEON_GREEN=#00ff9d
+NEON_BLUE=#00ffff
+NEON_RED=#ff3366
+
+# 📊 SEI 데이터 설정
+SEI_THRESHOLD=90
+SEI_UPDATE_INTERVAL=500

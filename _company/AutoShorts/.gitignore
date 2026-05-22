@@ -1,26 +1,11 @@
-<!DOCTYPE html>
-# AutoShorts Engine Git Ignore Rules
+# 🛑 Git Ignore 규칙
 .env
+*.pyc
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-EGG-INFO/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 .vscode/
 .idea/
 .DS_Store
+*.log
+node_modules/
+dist/
+build/
