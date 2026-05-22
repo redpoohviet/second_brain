@@ -149,6 +149,81 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-22T02-50/_report.md\n- 레오: 레오가 작성한 스토리보드와 Designer의 시각적 기술 사양서를 기반으로, 첫 번째 영상에 대한 최종 스크립트(Hook, 본문, CTA)를 확\n- Designer: 최종 확정된 '네온/글리치' 비주얼 기술 사양서를 기반으로, 첫 번째 숏폼 영상의 최종 썸네일 디자인 및 본편에 적용될 모든 시각 효과(글리치 \n- 코다리: AutoShorts Engine MVP가 설정한 기술 사양서에 따라, 첫 번째 영상 콘텐츠(스크립트 및 시각 효과)를 동적으로 생성할 수 있도록\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 레오가 작성한 스토리보드와 Designer의 시각적 기술 사양서를 기반으로, 첫 번째 영상에 대한 최종 스크립트(Hook, 본문, CTA)를 확정하고, YouTube 업로드용 상세 설명과 제목을 최종 검토하여 배포 준비 상태로 정리하십시오",
       "completedAt": "2026-05-22T02:55:54.345Z"
+    },
+    {
+      "id": "20260522033826-8fnt",
+      "title": "**크로스 플랫폼 대응:** 모바일(9:16), 태블릿, 데스크톱 환경에서 레이아웃 변형 없이 폰트 크기 및 요소 배치가 유지되는가? (반응형 디자인 검증)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-22T03:38:26.591Z",
+      "status": "pending",
+      "sessionDir": "2026-05-22T03-35",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260522033826-mj6h",
+      "title": "**타이밍 동기화:** 모든 애니메이션 타이밍(`0.5s`, `0.7s` 등)이 스크립트의 흐름(Writer)과 완벽하게 일치하는가? (재생 테스트 필수)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-22T03:38:26.597Z",
+      "status": "pending",
+      "sessionDir": "2026-05-22T03-35",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260522033826-s1zu",
+      "title": "**CSS 변수 작동 여부:** `--color-bg-primary` 값을 `#AABBCC`로 변경했을 때, 모든 배경 요소가 즉시 색상 변화를 보이는가? (유지보수성 검증)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-22T03:38:26.602Z",
+      "status": "pending",
+      "sessionDir": "2026-05-22T03-35",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260522033826-ddrm",
+      "title": "**글리치 노이즈 강도 테스트:** SEI 경고 시의 네온/글리치 효과가 과하거나 부족하지 않은가? (주관적 평가 필요)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-22T03:38:26.607Z",
+      "status": "pending",
+      "sessionDir": "2026-05-22T03-35",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260522033826-dcud",
+      "title": "**데이터 로딩 속도 테스트:** OEA 프로세스 인포그래픽에서 데이터 라벨 텍스트가 끊기지 않고 자연스럽게 채워지는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-22T03:38:26.612Z",
+      "status": "pending",
+      "sessionDir": "2026-05-22T03-35",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
