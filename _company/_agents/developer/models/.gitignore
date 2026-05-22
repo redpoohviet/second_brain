@@ -1,0 +1,9 @@
+# Git Ignore for Developer Tools
+*.pyc
+__pycache__/
+.env
+.env.local
+.idea/
+.vscode/
+.DS_Store
+*.log
