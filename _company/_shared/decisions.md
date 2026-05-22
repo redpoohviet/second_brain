@@ -497,3 +497,11 @@ _세션: 2026-05-22T04-35_
 - LLM 호출 실패 시, 메모리 부족 문제 해결을 위해 더 작은 모델을 선택하라
 - Context Length 초과 방지를 위해 LM Studio에서 8192 이상의 Context Length를 권장한다
 _세션: 2026-05-22T04-50_
+
+## [2026-05-22] "F:\localmodel\models\flux1-dev-Q4_K_S.gguf"
+
+fluxe1 모델의 경로야
+- Flux1 모델 경로는 F:\localmodel\models\flux1-dev-Q4_K_S.gguf로 설정한다.
+- OEA 프로세스 연동을 위해 observe, extract, automate 단계를 모두 활성화한다.
+- 모델 설정 시 context_length는 8192, temperature는 0.7로 지정한다.
+_세션: 2026-05-22T05-01_
