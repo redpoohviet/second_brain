@@ -159,11 +159,13 @@
         "designer"
       ],
       "createdAt": "2026-05-22T03:38:26.591Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-22T03-35",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-22T03-35/_report.md\n- Designer: Concept A의 디자인 스펙(컬러 팔레트, 타이포그래피, 모션 플로우)을 최종 검토하고, 개발팀에 전달할 최종 기술 사양서를 확정하여 제공하\n- 레오: 최종 확정된 디자인 스펙을 기반으로, 유튜브 숏폼 영상의 제목(Hook)과 상세 설명을 위한 시각적 후킹력을 극대화한 썸네일 디자인 초안 3가지\n- Writer: 최종 확정된 시각적 콘셉트(Concept A 중심)를 바탕으로, 유튜브 및 인스타그램용 썸네일 디자인에 사용될 핵심 카피라이팅과 해시태그 전략을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Concept A의 디자인 스펙(컬러 팔레트, 타이포그래피, 모션 플로우)을 최종 검토하고, 개발팀에 전달할 최종 기술 사양서를 확정하여 제공하십시오.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산",
+      "completedAt": "2026-05-22T03:40:41.800Z"
     },
     {
       "id": "20260522033826-mj6h",
@@ -174,11 +176,13 @@
         "designer"
       ],
       "createdAt": "2026-05-22T03:38:26.597Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-22T03-35",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-22T03-35/_report.md\n- Designer: Concept A의 디자인 스펙(컬러 팔레트, 타이포그래피, 모션 플로우)을 최종 검토하고, 개발팀에 전달할 최종 기술 사양서를 확정하여 제공하\n- 레오: 최종 확정된 디자인 스펙을 기반으로, 유튜브 숏폼 영상의 제목(Hook)과 상세 설명을 위한 시각적 후킹력을 극대화한 썸네일 디자인 초안 3가지\n- Writer: 최종 확정된 시각적 콘셉트(Concept A 중심)를 바탕으로, 유튜브 및 인스타그램용 썸네일 디자인에 사용될 핵심 카피라이팅과 해시태그 전략을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Concept A의 디자인 스펙(컬러 팔레트, 타이포그래피, 모션 플로우)을 최종 검토하고, 개발팀에 전달할 최종 기술 사양서를 확정하여 제공하십시오.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산",
+      "completedAt": "2026-05-22T03:40:41.806Z"
     },
     {
       "id": "20260522033826-s1zu",
@@ -189,11 +193,13 @@
         "designer"
       ],
       "createdAt": "2026-05-22T03:38:26.602Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-22T03-35",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-22T03-35/_report.md\n- Designer: Concept A의 디자인 스펙(컬러 팔레트, 타이포그래피, 모션 플로우)을 최종 검토하고, 개발팀에 전달할 최종 기술 사양서를 확정하여 제공하\n- 레오: 최종 확정된 디자인 스펙을 기반으로, 유튜브 숏폼 영상의 제목(Hook)과 상세 설명을 위한 시각적 후킹력을 극대화한 썸네일 디자인 초안 3가지\n- Writer: 최종 확정된 시각적 콘셉트(Concept A 중심)를 바탕으로, 유튜브 및 인스타그램용 썸네일 디자인에 사용될 핵심 카피라이팅과 해시태그 전략을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Concept A의 디자인 스펙(컬러 팔레트, 타이포그래피, 모션 플로우)을 최종 검토하고, 개발팀에 전달할 최종 기술 사양서를 확정하여 제공하십시오.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산",
+      "completedAt": "2026-05-22T03:40:41.814Z"
     },
     {
       "id": "20260522033826-ddrm",
@@ -204,11 +210,13 @@
         "designer"
       ],
       "createdAt": "2026-05-22T03:38:26.607Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-22T03-35",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-22T03-35/_report.md\n- Designer: Concept A의 디자인 스펙(컬러 팔레트, 타이포그래피, 모션 플로우)을 최종 검토하고, 개발팀에 전달할 최종 기술 사양서를 확정하여 제공하\n- 레오: 최종 확정된 디자인 스펙을 기반으로, 유튜브 숏폼 영상의 제목(Hook)과 상세 설명을 위한 시각적 후킹력을 극대화한 썸네일 디자인 초안 3가지\n- Writer: 최종 확정된 시각적 콘셉트(Concept A 중심)를 바탕으로, 유튜브 및 인스타그램용 썸네일 디자인에 사용될 핵심 카피라이팅과 해시태그 전략을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Concept A의 디자인 스펙(컬러 팔레트, 타이포그래피, 모션 플로우)을 최종 검토하고, 개발팀에 전달할 최종 기술 사양서를 확정하여 제공하십시오.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산",
+      "completedAt": "2026-05-22T03:40:41.822Z"
     },
     {
       "id": "20260522033826-dcud",
@@ -219,11 +227,13 @@
         "designer"
       ],
       "createdAt": "2026-05-22T03:38:26.612Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-22T03-35",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-22T03-35/_report.md\n- Designer: Concept A의 디자인 스펙(컬러 팔레트, 타이포그래피, 모션 플로우)을 최종 검토하고, 개발팀에 전달할 최종 기술 사양서를 확정하여 제공하\n- 레오: 최종 확정된 디자인 스펙을 기반으로, 유튜브 숏폼 영상의 제목(Hook)과 상세 설명을 위한 시각적 후킹력을 극대화한 썸네일 디자인 초안 3가지\n- Writer: 최종 확정된 시각적 콘셉트(Concept A 중심)를 바탕으로, 유튜브 및 인스타그램용 썸네일 디자인에 사용될 핵심 카피라이팅과 해시태그 전략을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Concept A의 디자인 스펙(컬러 팔레트, 타이포그래피, 모션 플로우)을 최종 검토하고, 개발팀에 전달할 최종 기술 사양서를 확정하여 제공하십시오.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산",
+      "completedAt": "2026-05-22T03:40:41.830Z"
     }
   ]
 }
