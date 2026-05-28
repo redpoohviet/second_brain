@@ -1,0 +1,13 @@
+# 📺 레오 — 메모리: 썸네일 선택 로직 (2026-05-28)
+
+## 2026-05-28 첫 영상 테스트 업로드 준비
+
+### 🖼️ 썸네일 오버레이 최종 선택
+- **선택 옵션:** C (빨강 톤 + 오류 경고 메시지)
+- **이유:** 베트남인 타겟 학습자에게 "주의! 오류" 메시지가 강력한 클릭 유도 (CTR) 효과 기대. 빨강 톤은 긴급함과 중요성을 강조하여 시청자 이탈 방지.
+- **파일 경로:** `j:\workspace\_company\_agents\youtube\_designer\_output\_shorts\_2026-05-28\target_vietnamese_chinese_learner_thumbnail_option_C.png`
+
+### 🎨 디자인 시스템 적용
+- **오버레이 톤:** 빨강 (Warning/Error)
+- **메시지:** "SYSTEM ERROR" 또는 "FIX THIS NOW!"
+- **배경:** 어두운 배경에 대비되는 빨간색 텍스트로 시선을 집중.
