@@ -752,6 +752,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-29T09-56/_report.md\n- Designer: 코다리(developer)가 검증한 KPI 및 기술 사양서를 기반으로, 'Integrated Video Production Tech Spec V\n- 코다리: Designer가 확정한 최종 시각적 명세서와 KPI 연동 로직을 기반으로, 자동화 프로세스(`automation_core.py`)의 데이터 출\n- 영숙: Designer와 Developer의 작업 완료 시점을 확인하고, 다음 단계인 '최종 영상 제작 명세서 확정'에 필요한 일정을 재조정하여 보고하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리(developer)가 검증한 KPI 및 기술 사양서를 기반으로, 'Integrated Video Production Tech Spec V2.0'의 스토리보드-디자인 컴포넌트 매핑(Timeline) 섹션을 완성하고 개발팀에 전",
       "completedAt": "2026-05-29T10:02:09.989Z"
+    },
+    {
+      "id": "20260529114244-bmm1",
+      "title": "T=10s 에서 감성적 문구 표시 여부 확인",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-29T11:42:44.689Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T11-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T11-41/_report.md\n- 코다리: Designer가 제공한 'Thumbnail_Design_System_V2.0.md'를 기반으로, 실제 자동화 프로그램(`automation_c\n- 현빈: 개발팀의 작업이 중단 없이 진행될 수 있도록, 코드 구현에 앞서 KPI 연동 로직(수익 퍼널 최적화)의 최종 검증 계획을 다시 한번 점검하고 코\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 제공한 'Thumbnail_Design_System_V2.0.md'를 기반으로, 실제 자동화 프로그램(`automation_core.py`)에 적용할 CSS 변수 및 인터랙티브 애니메이션 로직 코드를 구현하고 테스트 케이스에",
+      "completedAt": "2026-05-29T11:43:36.150Z"
+    },
+    {
+      "id": "20260529114244-wt45",
+      "title": "T=12s ~ T=15s 사이 `$27 상품` 링크 노출 타이밍 정확도",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-29T11:42:44.697Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T11-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T11-41/_report.md\n- 코다리: Designer가 제공한 'Thumbnail_Design_System_V2.0.md'를 기반으로, 실제 자동화 프로그램(`automation_c\n- 현빈: 개발팀의 작업이 중단 없이 진행될 수 있도록, 코드 구현에 앞서 KPI 연동 로직(수익 퍼널 최적화)의 최종 검증 계획을 다시 한번 점검하고 코\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 제공한 'Thumbnail_Design_System_V2.0.md'를 기반으로, 실제 자동화 프로그램(`automation_core.py`)에 적용할 CSS 변수 및 인터랙티브 애니메이션 로직 코드를 구현하고 테스트 케이스에",
+      "completedAt": "2026-05-29T11:43:36.159Z"
+    },
+    {
+      "id": "20260529114244-pfu6",
+      "title": "CTA 버튼 클릭 시 로직 연결성 (외부 API 연동 등)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-29T11:42:44.705Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T11-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T11-41/_report.md\n- 코다리: Designer가 제공한 'Thumbnail_Design_System_V2.0.md'를 기반으로, 실제 자동화 프로그램(`automation_c\n- 현빈: 개발팀의 작업이 중단 없이 진행될 수 있도록, 코드 구현에 앞서 KPI 연동 로직(수익 퍼널 최적화)의 최종 검증 계획을 다시 한번 점검하고 코\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 제공한 'Thumbnail_Design_System_V2.0.md'를 기반으로, 실제 자동화 프로그램(`automation_core.py`)에 적용할 CSS 변수 및 인터랙티브 애니메이션 로직 코드를 구현하고 테스트 케이스에",
+      "completedAt": "2026-05-29T11:43:36.168Z"
     }
   ]
 }
