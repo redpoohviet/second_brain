@@ -633,6 +633,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-29T03-26/_report.md\n- 코다리: Designer가 승인한 V1.0 디자인 시스템과 OEA 플로우(V2.0 Tech Spec)를 기반으로, 쇼츠 영상 제작 프로그램 자동화를 위한\n- Designer: 코다리가 작성할 API 명세서(OEA_Component_API_Spec.md) 초안에 대해, V1.0 디자인 시스템과의 충돌 여부를 최종적으로 \n- Writer: 레오가 제시한 OEA 플로우의 각 단계(Observe $\rightarrow$ Extract $\rightarrow$ Automate)에 대해, 해\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 승인한 V1.0 디자인 시스템과 OEA 플로우(V2.0 Tech Spec)를 기반으로, 쇼츠 영상 제작 프로그램 자동화를 위한 구체적인 API 명세서(`OEA_Component_API_Spec.md`) 초안을 작성하라. 이 ",
       "completedAt": "2026-05-29T03:32:30.057Z"
+    },
+    {
+      "id": "20260529034415-g07u",
+      "title": "**상태 변화 로직:** 각 컴포넌트가 스크롤 위치(Intersection Observer API)에 따라 애니메이션 상태를 전환하는 코드가 구현되어야 합니다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-29T03:44:15.994Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T03-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T03-41/_report.md\n- Designer: OEA_Component_Interaction_Spec.md에 Writer가 제공한 후킹 라이브러리(OEA_Hook_Library.md)를 최종\n- Writer: 최종 확정된 인터랙티브 명세서를 기반으로, 쇼츠 영상 제작 프로그램(`4858-i8id`)에 필요한 모든 콘텐츠 흐름을 완성하는 최종 카피라이팅\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: OEA_Component_Interaction_Spec.md에 Writer가 제공한 후킹 라이브러리(OEA_Hook_Library.md)를 최종 통합하여, 개발팀이 즉시 적용 가능한 최종 인터랙티브 명세서(V1.0)를 확정하고 승인",
+      "completedAt": "2026-05-29T03:45:26.952Z"
+    },
+    {
+      "id": "20260529034416-f1eo",
+      "title": "**CSS 변수 사용 의무화:** 모든 색상(`--color-bg-primary`, `--color-text-dark` 등), 크기, 간격은 CSS 변수를 통해 제어 가능해야 합니다 [근거: Designer 검증된 지식].",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-29T03:44:16.002Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T03-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T03-41/_report.md\n- Designer: OEA_Component_Interaction_Spec.md에 Writer가 제공한 후킹 라이브러리(OEA_Hook_Library.md)를 최종\n- Writer: 최종 확정된 인터랙티브 명세서를 기반으로, 쇼츠 영상 제작 프로그램(`4858-i8id`)에 필요한 모든 콘텐츠 흐름을 완성하는 최종 카피라이팅\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: OEA_Component_Interaction_Spec.md에 Writer가 제공한 후킹 라이브러리(OEA_Hook_Library.md)를 최종 통합하여, 개발팀이 즉시 적용 가능한 최종 인터랙티브 명세서(V1.0)를 확정하고 승인",
+      "completedAt": "2026-05-29T03:45:26.964Z"
+    },
+    {
+      "id": "20260529034416-t67f",
+      "title": "**반응형 테스트:** 모바일(9:16) 환경에서 모든 애니메이션 타이밍과 레이아웃이 끊김 없이 부드럽게 작동하는지 확인합니다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-29T03:44:16.009Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T03-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T03-41/_report.md\n- Designer: OEA_Component_Interaction_Spec.md에 Writer가 제공한 후킹 라이브러리(OEA_Hook_Library.md)를 최종\n- Writer: 최종 확정된 인터랙티브 명세서를 기반으로, 쇼츠 영상 제작 프로그램(`4858-i8id`)에 필요한 모든 콘텐츠 흐름을 완성하는 최종 카피라이팅\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: OEA_Component_Interaction_Spec.md에 Writer가 제공한 후킹 라이브러리(OEA_Hook_Library.md)를 최종 통합하여, 개발팀이 즉시 적용 가능한 최종 인터랙티브 명세서(V1.0)를 확정하고 승인",
+      "completedAt": "2026-05-29T03:45:26.976Z"
     }
   ]
 }
