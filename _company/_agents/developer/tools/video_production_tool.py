@@ -20,9 +20,9 @@ def generate_video_from_state_change(state_data, output_path):
         # 1. 배경 생성 (검정색 1280x720, 3 초)
         bg = ColorClip((1280, 720), color=(0, 0, 0)).set_duration(3)
         
-        # 2. 질문 텍스트 (5 초)
+                # 2. 질문 텍스트 및 피드백 클립 생성
         q_text = TextClip(state_data['question'], fontsize=40).set_position(('center', 'bottom')).set_duration(5)
-        clip1 = CompositeVideoClip([bg.set_duration(5), q_text])
+                # 3. 모든 클립을 조합하고 최종 비디오를 저장Clip([bg.set_duration(5), q_text])
         
         # 3. 정답 및 피드백 (10 초)
         a_text = TextClip(f"정답: {state_data['answer']}", fontsize=30).set_position(('center', 'top')).set_duration(10)
