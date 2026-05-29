@@ -592,11 +592,13 @@
         "developer"
       ],
       "createdAt": "2026-05-29T03:28:26.577Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-29T03-26",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T03-26/_report.md\n- 코다리: Designer가 승인한 V1.0 디자인 시스템과 OEA 플로우(V2.0 Tech Spec)를 기반으로, 쇼츠 영상 제작 프로그램 자동화를 위한\n- Designer: 코다리가 작성할 API 명세서(OEA_Component_API_Spec.md) 초안에 대해, V1.0 디자인 시스템과의 충돌 여부를 최종적으로 \n- Writer: 레오가 제시한 OEA 플로우의 각 단계(Observe $\rightarrow$ Extract $\rightarrow$ Automate)에 대해, 해\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 승인한 V1.0 디자인 시스템과 OEA 플로우(V2.0 Tech Spec)를 기반으로, 쇼츠 영상 제작 프로그램 자동화를 위한 구체적인 API 명세서(`OEA_Component_API_Spec.md`) 초안을 작성하라. 이 ",
+      "completedAt": "2026-05-29T03:32:30.037Z"
     },
     {
       "id": "20260529032826-5wyp",
@@ -607,11 +609,13 @@
         "developer"
       ],
       "createdAt": "2026-05-29T03:28:26.588Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-29T03-26",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T03-26/_report.md\n- 코다리: Designer가 승인한 V1.0 디자인 시스템과 OEA 플로우(V2.0 Tech Spec)를 기반으로, 쇼츠 영상 제작 프로그램 자동화를 위한\n- Designer: 코다리가 작성할 API 명세서(OEA_Component_API_Spec.md) 초안에 대해, V1.0 디자인 시스템과의 충돌 여부를 최종적으로 \n- Writer: 레오가 제시한 OEA 플로우의 각 단계(Observe $\rightarrow$ Extract $\rightarrow$ Automate)에 대해, 해\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 승인한 V1.0 디자인 시스템과 OEA 플로우(V2.0 Tech Spec)를 기반으로, 쇼츠 영상 제작 프로그램 자동화를 위한 구체적인 API 명세서(`OEA_Component_API_Spec.md`) 초안을 작성하라. 이 ",
+      "completedAt": "2026-05-29T03:32:30.047Z"
     },
     {
       "id": "20260529032826-lsd4",
@@ -622,11 +626,13 @@
         "developer"
       ],
       "createdAt": "2026-05-29T03:28:26.600Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-29T03-26",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T03-26/_report.md\n- 코다리: Designer가 승인한 V1.0 디자인 시스템과 OEA 플로우(V2.0 Tech Spec)를 기반으로, 쇼츠 영상 제작 프로그램 자동화를 위한\n- Designer: 코다리가 작성할 API 명세서(OEA_Component_API_Spec.md) 초안에 대해, V1.0 디자인 시스템과의 충돌 여부를 최종적으로 \n- Writer: 레오가 제시한 OEA 플로우의 각 단계(Observe $\rightarrow$ Extract $\rightarrow$ Automate)에 대해, 해\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 승인한 V1.0 디자인 시스템과 OEA 플로우(V2.0 Tech Spec)를 기반으로, 쇼츠 영상 제작 프로그램 자동화를 위한 구체적인 API 명세서(`OEA_Component_API_Spec.md`) 초안을 작성하라. 이 ",
+      "completedAt": "2026-05-29T03:32:30.057Z"
     }
   ]
 }
