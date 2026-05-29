@@ -1092,6 +1092,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-29T18-56/_report.md\n- 코다리: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도\n- Designer: 현빈이 설정한 KPI(CTR 4% 이상, Drop-off Rate 15% 감소)를 충족하도록 디자인 시스템 V2.0 기반의 모든 유튜브 및 크로\n- 레오: 확정된 일정에 따라 MVP 영상 게시 및 $27 상품 링크 CTA 배치를 즉시 실행하도록 준비하고, 개발팀의 안정성 보고를 대기하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**",
       "completedAt": "2026-05-29T19:00:31.215Z"
+    },
+    {
+      "id": "20260529202917-rrsg",
+      "title": "**CSS 변수 검토:** 모든 색상 코드와 크기가 `var(--color-bg-primary)` 등 CSS 변수로 정의되었는지 최종 확인.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-29T20:29:17.659Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T20-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T20-26/_report.md\n- 코다리: Thumbnail_A_B_Test_Matrix_V1.0.md에 정의된 A/B 테스트 그룹(그룹 A, B, C)에 맞춰, 인터랙티브 프로토타입 구\n- Designer: Thumbnail_A_B_Test_Matrix_V1.0.md의 시각적 사양을 기반으로, 다음 단계 영상 제작에 필요한 최종 썸네일 에셋을 그룹별\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Thumbnail_A_B_Test_Matrix_V1.0.md에 정의된 A/B 테스트 그룹(그룹 A, B, C)에 맞춰, 인터랙티브 프로토타입 구현을 즉시 시작하고 코드 안정성을 검증합니다.\n> 🔧 **도구 실행**: _(없음 — LLM 추론",
+      "completedAt": "2026-05-29T20:30:11.172Z"
+    },
+    {
+      "id": "20260529202917-sl86",
+      "title": "**크롭 테스트:** 16:9 비율(YouTube)과 9:16 비율(Instagram Reels/Shorts)의 핵심 정보 손실 여부를 시각적으로 교차 검증 (최우선 순위).",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-29T20:29:17.674Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T20-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T20-26/_report.md\n- 코다리: Thumbnail_A_B_Test_Matrix_V1.0.md에 정의된 A/B 테스트 그룹(그룹 A, B, C)에 맞춰, 인터랙티브 프로토타입 구\n- Designer: Thumbnail_A_B_Test_Matrix_V1.0.md의 시각적 사양을 기반으로, 다음 단계 영상 제작에 필요한 최종 썸네일 에셋을 그룹별\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Thumbnail_A_B_Test_Matrix_V1.0.md에 정의된 A/B 테스트 그룹(그룹 A, B, C)에 맞춰, 인터랙티브 프로토타입 구현을 즉시 시작하고 코드 안정성을 검증합니다.\n> 🔧 **도구 실행**: _(없음 — LLM 추론",
+      "completedAt": "2026-05-29T20:30:11.183Z"
+    },
+    {
+      "id": "20260529202917-zoat",
+      "title": "**애니메이션 타이밍 동기화:** 후킹 제목 카드의 '반짝임' 효과가 영상 시작 3초 지점에서 정확히 발동하는지 키프레임을 재확인.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-29T20:29:17.684Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T20-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T20-26/_report.md\n- 코다리: Thumbnail_A_B_Test_Matrix_V1.0.md에 정의된 A/B 테스트 그룹(그룹 A, B, C)에 맞춰, 인터랙티브 프로토타입 구\n- Designer: Thumbnail_A_B_Test_Matrix_V1.0.md의 시각적 사양을 기반으로, 다음 단계 영상 제작에 필요한 최종 썸네일 에셋을 그룹별\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Thumbnail_A_B_Test_Matrix_V1.0.md에 정의된 A/B 테스트 그룹(그룹 A, B, C)에 맞춰, 인터랙티브 프로토타입 구현을 즉시 시작하고 코드 안정성을 검증합니다.\n> 🔧 **도구 실행**: _(없음 — LLM 추론",
+      "completedAt": "2026-05-29T20:30:11.196Z"
+    },
+    {
+      "id": "20260529202917-9nrj",
+      "title": "**A/B 테스트 로직 통합:** 썸네일 클릭 시, 내부적으로 어떤 가설을 적용했는지 추적할 수 있는 UTM 파라미터를 반드시 추가한다. (KPI 측정 필수)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-29T20:29:17.696Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T20-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T20-26/_report.md\n- 코다리: Thumbnail_A_B_Test_Matrix_V1.0.md에 정의된 A/B 테스트 그룹(그룹 A, B, C)에 맞춰, 인터랙티브 프로토타입 구\n- Designer: Thumbnail_A_B_Test_Matrix_V1.0.md의 시각적 사양을 기반으로, 다음 단계 영상 제작에 필요한 최종 썸네일 에셋을 그룹별\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Thumbnail_A_B_Test_Matrix_V1.0.md에 정의된 A/B 테스트 그룹(그룹 A, B, C)에 맞춰, 인터랙티브 프로토타입 구현을 즉시 시작하고 코드 안정성을 검증합니다.\n> 🔧 **도구 실행**: _(없음 — LLM 추론",
+      "completedAt": "2026-05-29T20:30:11.208Z"
+    },
+    {
+      "id": "20260529202917-4195",
+      "title": "**배경 노이즈 레이어:** 배경에 아날로그 필름의 미세한 노이즈(Opacity 0.1)가 적용되었는지 검증하고, 영상 루프와 자연스럽게 연결되도록 처리한다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-29T20:29:17.705Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T20-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T20-26/_report.md\n- 코다리: Thumbnail_A_B_Test_Matrix_V1.0.md에 정의된 A/B 테스트 그룹(그룹 A, B, C)에 맞춰, 인터랙티브 프로토타입 구\n- Designer: Thumbnail_A_B_Test_Matrix_V1.0.md의 시각적 사양을 기반으로, 다음 단계 영상 제작에 필요한 최종 썸네일 에셋을 그룹별\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Thumbnail_A_B_Test_Matrix_V1.0.md에 정의된 A/B 테스트 그룹(그룹 A, B, C)에 맞춰, 인터랙티브 프로토타입 구현을 즉시 시작하고 코드 안정성을 검증합니다.\n> 🔧 **도구 실행**: _(없음 — LLM 추론",
+      "completedAt": "2026-05-29T20:30:11.219Z"
     }
   ]
 }
