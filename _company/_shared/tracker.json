@@ -571,6 +571,62 @@
       "sessionDir": "2026-05-28T23-39",
       "evidence": "완료: sessions/2026-05-28T23-39/_report.md\n- 코다리: 자동화 파이프라인 구현에 필요한 모든 핵심 데이터 파일(예: Landing Kit 템플릿, PayPal 통합 스크립트 등)의 누락된 부분을 확인\n\nCEO 종합 요점: 💻 코다리: 작업 시작합니다. 🛑\n\n\"누락된 파일 재생성\" 요청 접수했습니다. 단순히 텍스트로 설명만 할 게 아니라, **실제로 워크스페이스에 파일을 생성**하고 검증하겠습니다.\n\n먼저 현재 프로젝트의 실제 상태와 누락된 핵심 모듈의 위치를 파악해야 합니다. 시스템 컨텍스트에서 언급된 'Landing Kit', 'PayPal 통합' 등 필수 요소를 포함",
       "completedAt": "2026-05-28T23:40:13.909Z"
+    },
+    {
+      "id": "20260529014858-i8id",
+      "title": "쇼츠영상 제작 프로그램 우선 완성",
+      "description": "페이팔기능은 나중에 우선 쇼츠영상 제작 프로그램부터 완성해",
+      "owner": "user",
+      "createdAt": "2026-05-29T01:48:58.726Z",
+      "status": "pending",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260529032826-xvnp",
+      "title": "`OEA_Component_API_Spec.md` 를 실제 코드 구조에 반영하여 함수 구현.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-29T03:28:26.577Z",
+      "status": "pending",
+      "sessionDir": "2026-05-29T03-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260529032826-5wyp",
+      "title": "로컬 데이터 시뮬레이션 (`simulateApiCall`) 을 실제로 작동하는 로직으로 교체.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-29T03:28:26.588Z",
+      "status": "pending",
+      "sessionDir": "2026-05-29T03-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260529032826-lsd4",
+      "title": "Designer 와 최종적인 시각적 실행안 검토 및 승인 받기.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-29T03:28:26.600Z",
+      "status": "pending",
+      "sessionDir": "2026-05-29T03-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
