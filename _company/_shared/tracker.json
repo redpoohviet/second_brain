@@ -1205,6 +1205,81 @@
       "sessionDir": "2026-05-29T23-22",
       "evidence": "완료: sessions/2026-05-29T23-22/_report.md\n- Researcher: GitHub에서 영상 제작 자동화 툴 및 API를 검색하고, 현재 개발 중인 video_production_tool.py와 비교하여 최신 도구들\n\nCEO 종합 요점: 🔍 Researcher: 영상 제작 자동화 툴 및 API 트렌드 분석을 시작합니다. 비개발자 CEO 와 개발팀이 모두 이해할 수 있도록, 최신 GitHub 트렌드를 반영하여 현재 개발 중인 `video_production_tool.py` 와 대안을 비교 정리하겠습니다.\n\n<create_file path=\"sessions/2026-05-30T06-45/vi",
       "completedAt": "2026-05-29T23:23:58.440Z"
+    },
+    {
+      "id": "20260529232723-a7rf",
+      "title": "**파이프라인 안정성 검증:** `video_production_tool.py` 가 샘플 데이터로 정상 작동하고, 최종 출력 파일 (`output.mp4`) 이 생성되었는지 확인.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-29T23:27:23.643Z",
+      "status": "pending",
+      "sessionDir": "2026-05-29T23-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260529232723-vlsk",
+      "title": "**CTA 배치 로직 적용:** 12~15 초 (Pain Point Max) 구간에서 CTA 버튼/링크가 정확히 노출되는지 시뮬레이션 테스트.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-29T23:27:23.653Z",
+      "status": "pending",
+      "sessionDir": "2026-05-29T23-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260529232723-frto",
+      "title": "**Landing Page 링크 연결:** 영상 내 CTA 클릭 시 `https://...` 으로 리디렉션이 정상적으로 작동하는지 확인.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-29T23:27:23.665Z",
+      "status": "pending",
+      "sessionDir": "2026-05-29T23-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260529232723-30zn",
+      "title": "**영상 업로드:** Ep.1 영상 완성 및 YouTube 채널 게시 완료.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-29T23:27:23.677Z",
+      "status": "pending",
+      "sessionDir": "2026-05-29T23-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260529232723-844e",
+      "title": "**제목/설명 최적화:** '시스템 오류' 핵심 메시지 반영 및 관련 해시태그 (#시스템오류 #비즈니스자동화 등) 적용.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-29T23:27:23.686Z",
+      "status": "pending",
+      "sessionDir": "2026-05-29T23-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
