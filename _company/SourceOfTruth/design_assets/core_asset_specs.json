@@ -1,0 +1,77 @@
+{
+  "project": "Jinny's Lab - Shorts Video Automation Kit",
+  "version": "V1.0-AutomationReady",
+  "description": "자동화 엔진(automation_core)이 참조할 수 있는 핵심 비주얼 컴포넌트의 기술적 파라미터 정의.",
+  "global_styles": {
+    "color_vars": {
+      "bg_primary": "var(--color-bg-primary)",
+      "text_dark": "var(--color-text-dark)",
+      "highlight_cta": "var(--color-accent-red)" 
+    },
+    "font_vars": {
+      "headline": "var(--font-family-script)", 
+      "body": "var(--font-family-pretendard)",
+      "detail": "var(--font-family-courier)"
+    },
+    "animation_defaults": {
+      "ease": "cubic-bezier(0.25, 1, 0.5, 1)", 
+      "transition_duration_short": "0.3s",
+      "opacity_fade_time": "0.8s"
+    }
+  },
+  "asset_components": [
+    {
+      "component_id": "hooking_title_card",
+      "name": "후킹 타이틀 카드 (Hook)",
+      "purpose": "시청자의 시선을 즉각적으로 붙잡고 문제 제기.",
+      "placement": ["Start (T=0s)"],
+      "layout_spec": {
+        "size_ratio": "9:16", 
+        "text_area": [
+          {"element": "headline", "content_placeholder": "[핵심 후킹 문구]?", "style_vars": {"font": "var(--font-family-script)", "size": "var(--size-h2)", "color": "var(--color-text-dark)"}},
+          {"element": "subhead", "content_placeholder": "이 방법을 왜 이제 알았을까요?", "style_vars": {"font": "var(--font-family-pretendard)", "size": "var(--size-md)", "color": "#3A3530"}}
+        ],
+        "animation_spec": {
+          "entry": "Scale up (1.0 -> 1.1) + Fade In",
+          "timing": {"duration": "0.7s", "curve": "ease-out"}
+        }
+      }
+    },
+    {
+      "component_id": "process_flow_step",
+      "name": "OEA 프로세스 설명 블록 (Core Content)",
+      "purpose": "핵심 정보(Observation, Extraction, Automation)를 시각적 흐름으로 전달.",
+      "placement": ["Middle (T=3s ~ T=8s)", "Loopable"],
+      "layout_spec": {
+        "size_ratio": "9:16",
+        "structure": [
+          {"step": 1, "title": "Observation (관찰)", "details": "Pain Point를 인지하는 단계.", "visual_type": "Icon + Text Box"},
+          {"step": 2, "title": "Extraction (추출)", "details": "핵심 데이터를 뽑아내는 과정.", "visual_type": "Flow Diagram / Arrow Transition"},
+          {"step": 3, "title": "Automation (자동화)", "details": "반복 작업을 시스템으로 처리.", "visual_type": "System Interface Mockup"}
+        ],
+        "animation_spec": {
+          "flow_transition": "Slide Left -> Right",
+          "timing": {"step_delay": "1.2s", "overall_duration": "5s"}
+        }
+      }
+    },
+    {
+      "component_id": "cta_enrollment",
+      "name": "수익화 CTA 및 행동 유도 (Call to Action)",
+      "purpose": "영상 시청자가 다음 단계(유료 상품)로 이동하도록 강제적 유도.",
+      "placement": ["End (T=10s ~ T=15s)", "Final"],
+      "layout_spec": {
+        "size_ratio": "9:16",
+        "elements": [
+          {"element": "product_title", "content_placeholder": "$27 진입 상품명 (Tier B)", "style_vars": {"font": "var(--font-family-script)", "size": "var(--size-h1)", "color": "var(--color-highlight-cta)"}},
+          {"element": "benefit_text", "content_placeholder": "단 2주 만에 자동화된 지식 습득.", "style_vars": {"font": "var(--font-family-pretendard)", "size": "var(--size-lg)"}},
+          {"element": "button", "action": "Click to Enroll", "timing": {"on_hover": "Pulse animation", "click": "Redirect"}}
+        ],
+        "animation_spec": {
+          "entry": "Zoom in (Dramatic reveal)",
+          "timing": {"duration": "1.5s"}
+        }
+      }
+    }
+  ]
+}
