@@ -1007,6 +1007,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-29T18-26/_report.md\n- 코다리: Designer가 제공한 `Design_to_Code_Handoff_Kit_V2.0.md` 및 Master_Video_Flow_Spec_V3.0\n- Designer: 개발팀이 수행한 통합 테스트 결과(오류 로그 포함)를 바탕으로, 디자인 시스템 V2.0 컴포넌트의 코딩 가능성 및 인터랙션 로직의 안정성을 최종\n- 레오: 통합 테스트 결과에 따라, 다음 영상 제작 파이프라인(스토리보드) 중 가장 취약한 부분(예: 썸네일 생성 또는 인트로 카드 구성)을 식별하고 해\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 제공한 `Design_to_Code_Handoff_Kit_V2.0.md` 및 Master_Video_Flow_Spec_V3.0을 기반으로, 모바일 환경 시뮬레이터의 최종 통합 테스트 자동화 흐름을 실행하고 시스템 오류 발생 ",
       "completedAt": "2026-05-29T18:30:44.534Z"
+    },
+    {
+      "id": "20260529190002-b4ku",
+      "title": "업로드 메타데이터 복사 완료",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-29T19:00:02.099Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T18-56",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T18-56/_report.md\n- 코다리: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도\n- Designer: 현빈이 설정한 KPI(CTR 4% 이상, Drop-off Rate 15% 감소)를 충족하도록 디자인 시스템 V2.0 기반의 모든 유튜브 및 크로\n- 레오: 확정된 일정에 따라 MVP 영상 게시 및 $27 상품 링크 CTA 배치를 즉시 실행하도록 준비하고, 개발팀의 안정성 보고를 대기하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**",
+      "completedAt": "2026-05-29T19:00:31.169Z"
+    },
+    {
+      "id": "20260529190002-t6wx",
+      "title": "썸네일 에셋 확인 (Designer 작업 완료 여부)",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-29T19:00:02.111Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T18-56",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T18-56/_report.md\n- 코다리: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도\n- Designer: 현빈이 설정한 KPI(CTR 4% 이상, Drop-off Rate 15% 감소)를 충족하도록 디자인 시스템 V2.0 기반의 모든 유튜브 및 크로\n- 레오: 확정된 일정에 따라 MVP 영상 게시 및 $27 상품 링크 CTA 배치를 즉시 실행하도록 준비하고, 개발팀의 안정성 보고를 대기하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**",
+      "completedAt": "2026-05-29T19:00:31.181Z"
+    },
+    {
+      "id": "20260529190002-p1hh",
+      "title": "$27 상품 링크 최종 확인",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-29T19:00:02.123Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T18-56",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T18-56/_report.md\n- 코다리: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도\n- Designer: 현빈이 설정한 KPI(CTR 4% 이상, Drop-off Rate 15% 감소)를 충족하도록 디자인 시스템 V2.0 기반의 모든 유튜브 및 크로\n- 레오: 확정된 일정에 따라 MVP 영상 게시 및 $27 상품 링크 CTA 배치를 즉시 실행하도록 준비하고, 개발팀의 안정성 보고를 대기하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**",
+      "completedAt": "2026-05-29T19:00:31.193Z"
+    },
+    {
+      "id": "20260529190002-enmw",
+      "title": "인스타그램 티저 게시 완료",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-29T19:00:02.135Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T18-56",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T18-56/_report.md\n- 코다리: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도\n- Designer: 현빈이 설정한 KPI(CTR 4% 이상, Drop-off Rate 15% 감소)를 충족하도록 디자인 시스템 V2.0 기반의 모든 유튜브 및 크로\n- 레오: 확정된 일정에 따라 MVP 영상 게시 및 $27 상품 링크 CTA 배치를 즉시 실행하도록 준비하고, 개발팀의 안정성 보고를 대기하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**",
+      "completedAt": "2026-05-29T19:00:31.205Z"
+    },
+    {
+      "id": "20260529190002-yufc",
+      "title": "YouTube Studio에 영상 업로드 및 설정 적용",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-29T19:00:02.145Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T18-56",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T18-56/_report.md\n- 코다리: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도\n- Designer: 현빈이 설정한 KPI(CTR 4% 이상, Drop-off Rate 15% 감소)를 충족하도록 디자인 시스템 V2.0 기반의 모든 유튜브 및 크로\n- 레오: 확정된 일정에 따라 MVP 영상 게시 및 $27 상품 링크 CTA 배치를 즉시 실행하도록 준비하고, 개발팀의 안정성 보고를 대기하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Master_Video_Flow_Spec_V3.0 기반 자동화 파이프라인의 최종 안정성 검증 결과를 코다리(개발자)가 정리하여 레오에게 보고하도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**",
+      "completedAt": "2026-05-29T19:00:31.215Z"
     }
   ]
 }
