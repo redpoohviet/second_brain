@@ -1,0 +1,79 @@
+{
+  "project": "Jinny's Lab - System Error Short #01",
+  "version": "1.0.0_Final",
+  "target_platform": ["YouTube Shorts", "Instagram Reels"],
+  "duration_estimate": "30 seconds",
+  "design_system_ref": "DesignSystem_V1.0_Spec.md",
+  "core_asset_specs": {
+    "color_vars": {
+      "primary_bg": "var(--color-bg-primary)",
+      "secondary_bg": "var(--color-bg-secondary)",
+      "text_dark": "var(--color-text-dark)",
+      "alert_error": "#E53935",
+      "success_highlight": "#4CAF50"
+    },
+    "font_vars": {
+      "hook_title": "Brush Script, cursive",
+      "body_info": "Pretendard, sans-serif",
+      "detail_code": "Courier New, monospace"
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": "S01_Hook_ErrorState",
+      "timeline": {
+        "start_time": "0.0s",
+        "end_time": "3.0s",
+        "duration": "3.0s"
+      },
+      "visual_components": [
+        {"type": "Background", "style": "Animated Gradient (Error Pattern)", "params": {"color1": "#DDC2B9", "color2": "#A04040", "opacity": 0.8, "animation": "pulsating-shake"}},
+        {"type": "Text_Display", "content": "🔥 경고! 당신의 하루 24 시간은 '이거'에 쓰이고 있습니다.", "style": {"font": "hook_title", "size": "var(--size-h1)", "color": "alert_error"}, "animation": "typewriter-effect", "timing": "0.5s"}}
+      ],
+      "interaction_logic": {
+        "trigger": "Time Elapsed (0.0s)",
+        "action": "Background shake starts.",
+        "assets_loaded": ["Error Counter Asset (JS)"],
+        "data_flow": "Counter updates every 100ms, displaying 'Time Wasted: +Xmin'."
+      }
+    },
+    {
+      "scene_id": "S02_PainPoint_SplitScreen",
+      "timeline": {
+        "start_time": "3.0s",
+        "end_time": "8.0s",
+        "duration": "5.0s"
+      },
+      "visual_components": [
+        {"type": "Container", "style": "Split Screen (50/50)", "layout_rule": "Flexbox"},
+        {"type": "Module", "area": "Left (Labor)", "content": "복잡한 수작업의 이미지 시퀀스", "design": {"bg_color": "#FEEAEA", "transition": "opacity 1s"}} ,
+        {"type": "Module", "area": "Right (Intelligence)", "content": "깔끔한 데이터 흐름도(OEA Flowchart)", "design": {"bg_color": "#E9ECEF", "transition": "transform 0.5s"}},
+        {"type": "KeyText", "content": "🧠 Labor vs Intelligence. 무엇이 다를까요?", "style": {"font": "body_info", "size": "var(--size-h2)"}}
+      ],
+      "interaction_logic": {
+        "trigger": "3.0s (Transition)",
+        "action": "Background texture fades from vintage to digital.",
+        "data_flow": "Left module: Random image sequence with fast cuts. Right module: Smooth line-by-line animation of OEA process steps."
+      }
+    },
+    {
+      "scene_id": "S03_Process_Observe",
+      "timeline": {
+        "start_time": "8.0s",
+        "end_time": "15.0s",
+        "duration": "7.0s"
+      },
+      "visual_components": [
+        {"type": "Flowchart", "title": "STEP 1: Observe (관찰)", "layout_rule": "Vertical Timeline"},
+        {"type": "HighlightTool", "description": "빨간색 마커가 화면의 문제 지점을 강조하며 이동.", "animation": "tracer-effect", "timing": "0.2s per segment"} ,
+        {"type": "ExampleData", "content": "시간 낭비 유형 A, B, C...", "style": {"font": "detail_code", "size": "var(--size-md)"}}
+      ],
+      "interaction_logic": {
+        "trigger": "Voiceover Start (8.0s)",
+        "action": "Focus on the Pain Point area. The 'Highlight Tool' should simulate a user drawing circles/lines around inefficient actions, followed by a quick zoom-out revealing the system perspective.",
+        "data_flow": "The system must dynamically generate and place example pain points based on pre-loaded data tags."
+      }
+    }
+    /* ... (나머지 단계: Extract와 Automate도 유사한 Tech Spec 구조로 완성되어야 함) */
+  ]
+}
