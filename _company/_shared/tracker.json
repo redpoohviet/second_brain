@@ -1750,6 +1750,36 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-30T10-14/_report.md\n- 현빈: 모든 에이전트의 현재 목표와 최근 의사결정 로그를 분석하여, 현재 가장 높은 KPI 달성 기여도를 가지는 단일 작업을 식별하고 우선순위를 결정하\n- 영숙: 식별된 최우선 작업에 대해 모든 에이전트의 진행 상태와 일정을 종합하여 실행 가능한 구체적인 다음 단계 액션 플랜을 작성하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 모든 에이전트의 현재 목표와 최근 의사결정 로그를 분석하여, 현재 가장 높은 KPI 달성 기여도를 가지는 단일 작업을 식별하고 우선순위를 결정하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 ",
       "completedAt": "2026-05-30T10:17:08.803Z"
+    },
+    {
+      "id": "20260530122058-ziyl",
+      "title": "레오 에이전트에게 `competitor_brief.py` 와 `trend_sniper.py` 의 유니코드 오류를 수정하여 실행 결과를 재수집할 것을 요청 (대기).",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-30T12:20:58.789Z",
+      "status": "pending",
+      "sessionDir": "2026-05-30T12-18",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260530122058-55iy",
+      "title": "수정된 데이터를 바탕으로 스크립트를 최종 확정.",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-30T12:20:58.798Z",
+      "status": "pending",
+      "sessionDir": "2026-05-30T12-18",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
