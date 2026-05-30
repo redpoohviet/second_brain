@@ -1580,6 +1580,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-30T03-26/_report.md\n- 레오: 최종 영상 스크립트, CTA 타이밍 및 목표 KPI(CTR > 4%, 시청 지속 시간 > 22초)를 기반으로 최종 출시 준비 상태를 점검하고, \n- Designer: 최종 영상의 CTA 노출 지점과 목표 KPI 달성에 필요한 시각적 기준(Before/After 이미지, 에셋)이 모든 플랫폼에 일관되게 반영되었\n- 코다리: 수익화 상품 랜딩 페이지 MVP 코드와 영상 콘텐츠의 CTA 흐름 간의 기술적 정합성(Flowmap 기반)을 마지막으로 검증하고, 배포 오류가 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 최종 영상 스크립트, CTA 타이밍 및 목표 KPI(CTR > 4%, 시청 지속 시간 > 22초)를 기반으로 최종 출시 준비 상태를 점검하고, 배포 계획을 확정하라.\n> 🔧 **도구 실행**: `my_videos_check.py (pre",
       "completedAt": "2026-05-30T03:30:24.273Z"
+    },
+    {
+      "id": "20260530043025-nw85",
+      "title": "**CTA 타이밍 확인:** 15 초 ~ 40 초 구간에서 유튜브 링크가 명확히 노출되는지 편집 완료 여부.",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-05-30T04:30:25.858Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T04-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T04-26/_report.md\n- 레오: 최종 확정된 영상 스크립트 및 CTA 타이밍을 기반으로 유튜브 영상 업로드 최종 계획을 확정하고, 배포 준비를 완료하라.\n- Designer: 확정된 Global Design System Manual V1.0과 QA Matrix를 반영하여 유튜브 썸네일 및 크로스 플랫폼 티저용 에셋(B\n- Instagram: 최종 확정된 CTA와 시각적 기준을 반영하여 크로스 플랫폼 티저 콘텐츠(릴스/피드)의 최종 카피라이팅 및 게시를 진행하고 인게이지먼트 상태를 모\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 최종 확정된 영상 스크립트 및 CTA 타이밍을 기반으로 유튜브 영상 업로드 최종 계획을 확정하고, 배포 준비를 완료하라.\n> 🔧 **도구 실행**: `my_videos_check.py (prefetch)`\n> 📊 **수집 데이터**: ",
+      "completedAt": "2026-05-30T04:31:21.841Z"
+    },
+    {
+      "id": "20260530043025-xjg5",
+      "title": "**시각적 일관성:** Before/After 이미지 및 배경색 (`#DDC2B9`) 이 매니페스트와 일치하는지 확인.",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-05-30T04:30:25.871Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T04-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T04-26/_report.md\n- 레오: 최종 확정된 영상 스크립트 및 CTA 타이밍을 기반으로 유튜브 영상 업로드 최종 계획을 확정하고, 배포 준비를 완료하라.\n- Designer: 확정된 Global Design System Manual V1.0과 QA Matrix를 반영하여 유튜브 썸네일 및 크로스 플랫폼 티저용 에셋(B\n- Instagram: 최종 확정된 CTA와 시각적 기준을 반영하여 크로스 플랫폼 티저 콘텐츠(릴스/피드)의 최종 카피라이팅 및 게시를 진행하고 인게이지먼트 상태를 모\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 최종 확정된 영상 스크립트 및 CTA 타이밍을 기반으로 유튜브 영상 업로드 최종 계획을 확정하고, 배포 준비를 완료하라.\n> 🔧 **도구 실행**: `my_videos_check.py (prefetch)`\n> 📊 **수집 데이터**: ",
+      "completedAt": "2026-05-30T04:31:21.852Z"
+    },
+    {
+      "id": "20260530043025-ehuq",
+      "title": "**자막/오디오:** 보이스오버 음량이 적절히 조절된지, 자막이 가독성이 있는지 최종 검토.",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-05-30T04:30:25.884Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T04-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T04-26/_report.md\n- 레오: 최종 확정된 영상 스크립트 및 CTA 타이밍을 기반으로 유튜브 영상 업로드 최종 계획을 확정하고, 배포 준비를 완료하라.\n- Designer: 확정된 Global Design System Manual V1.0과 QA Matrix를 반영하여 유튜브 썸네일 및 크로스 플랫폼 티저용 에셋(B\n- Instagram: 최종 확정된 CTA와 시각적 기준을 반영하여 크로스 플랫폼 티저 콘텐츠(릴스/피드)의 최종 카피라이팅 및 게시를 진행하고 인게이지먼트 상태를 모\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 최종 확정된 영상 스크립트 및 CTA 타이밍을 기반으로 유튜브 영상 업로드 최종 계획을 확정하고, 배포 준비를 완료하라.\n> 🔧 **도구 실행**: `my_videos_check.py (prefetch)`\n> 📊 **수집 데이터**: ",
+      "completedAt": "2026-05-30T04:31:21.865Z"
+    },
+    {
+      "id": "20260530043025-97j4",
+      "title": "**슬라이드 순서:** Before -> Problem -> Solution -> Link 순서로 오류 없음 확인.",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-05-30T04:30:25.896Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T04-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T04-26/_report.md\n- 레오: 최종 확정된 영상 스크립트 및 CTA 타이밍을 기반으로 유튜브 영상 업로드 최종 계획을 확정하고, 배포 준비를 완료하라.\n- Designer: 확정된 Global Design System Manual V1.0과 QA Matrix를 반영하여 유튜브 썸네일 및 크로스 플랫폼 티저용 에셋(B\n- Instagram: 최종 확정된 CTA와 시각적 기준을 반영하여 크로스 플랫폼 티저 콘텐츠(릴스/피드)의 최종 카피라이팅 및 게시를 진행하고 인게이지먼트 상태를 모\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 최종 확정된 영상 스크립트 및 CTA 타이밍을 기반으로 유튜브 영상 업로드 최종 계획을 확정하고, 배포 준비를 완료하라.\n> 🔧 **도구 실행**: `my_videos_check.py (prefetch)`\n> 📊 **수집 데이터**: ",
+      "completedAt": "2026-05-30T04:31:21.878Z"
+    },
+    {
+      "id": "20260530043025-iokl",
+      "title": "**링크 삽입:** 첫 번째 슬라이드 또는 프로필 링크에 유튜브 영상 URL 이 정확히 입력되었는지 확인.",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-05-30T04:30:25.908Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T04-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T04-26/_report.md\n- 레오: 최종 확정된 영상 스크립트 및 CTA 타이밍을 기반으로 유튜브 영상 업로드 최종 계획을 확정하고, 배포 준비를 완료하라.\n- Designer: 확정된 Global Design System Manual V1.0과 QA Matrix를 반영하여 유튜브 썸네일 및 크로스 플랫폼 티저용 에셋(B\n- Instagram: 최종 확정된 CTA와 시각적 기준을 반영하여 크로스 플랫폼 티저 콘텐츠(릴스/피드)의 최종 카피라이팅 및 게시를 진행하고 인게이지먼트 상태를 모\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 최종 확정된 영상 스크립트 및 CTA 타이밍을 기반으로 유튜브 영상 업로드 최종 계획을 확정하고, 배포 준비를 완료하라.\n> 🔧 **도구 실행**: `my_videos_check.py (prefetch)`\n> 📊 **수집 데이터**: ",
+      "completedAt": "2026-05-30T04:31:21.889Z"
     }
   ]
 }
