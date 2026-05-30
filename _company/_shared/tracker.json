@@ -1358,6 +1358,142 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-29T23-26/_report.md\n- 현빈: 확정된 영상 시리즈 콘텐츠 흐름 및 수익화 전략에 맞춰, MVP 영상(Ep.1) 게시와 각 티어별 CTA 배치를 즉시 실행할 준비를 하라.\n- 레오: 최종 확정된 콘텐츠 흐름(로드맵)에 따라 다음 영상의 스크립트 및 기획을 최종 점검하고, 게시 준비 상태로 전환하라.\n- 코다리: 자동화 파이프라인 실행 안정성 검증 결과와 최신 코드를 기반으로, 콘텐츠 제작에 필요한 데이터 연동 및 영상 생성 툴의 최종 실행 환경을 점검하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 확정된 영상 시리즈 콘텐츠 흐름 및 수익화 전략에 맞춰, MVP 영상(Ep.1) 게시와 각 티어별 CTA 배치를 즉시 실행할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 **수집 ",
       "completedAt": "2026-05-29T23:29:22.014Z"
+    },
+    {
+      "id": "20260530021242-g2ow",
+      "title": "**스크립트 초안 작성:** 위 주제와 CTA 시점을 반영하여, 12~15 초 구간에서 강력한 문구 배치.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-30T02:12:42.295Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T02-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T02-11/_report.md\n- 현빈: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하\n- 레오: business 에이전트가 수립한 계획에 따라, 첫 번째 영상의 구체적인 기획안(스크립트 초안 및 목표 시청자)을 작성하고, 필요한 핵심 메시지\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하여 유튜브 콘텐츠 제작 계획을 수립하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-05-30T02:13:54.461Z"
+    },
+    {
+      "id": "20260530021242-cgb0",
+      "title": "**시각적 기준 준수:** Stage 0 에셋 (Before/After 이미지) 과 OEA 프로세스 시각화 적용.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-30T02:12:42.309Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T02-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T02-11/_report.md\n- 현빈: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하\n- 레오: business 에이전트가 수립한 계획에 따라, 첫 번째 영상의 구체적인 기획안(스크립트 초안 및 목표 시청자)을 작성하고, 필요한 핵심 메시지\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하여 유튜브 콘텐츠 제작 계획을 수립하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-05-30T02:13:54.473Z"
+    },
+    {
+      "id": "20260530021242-4ky2",
+      "title": "**산출물 경로:** `sessions/2026-05-30T02-15/youtube_script_ep1.md`",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-30T02:12:42.319Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T02-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T02-11/_report.md\n- 현빈: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하\n- 레오: business 에이전트가 수립한 계획에 따라, 첫 번째 영상의 구체적인 기획안(스크립트 초안 및 목표 시청자)을 작성하고, 필요한 핵심 메시지\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하여 유튜브 콘텐츠 제작 계획을 수립하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-05-30T02:13:54.484Z"
+    },
+    {
+      "id": "20260530021242-surc",
+      "title": "**에셋 제작:** 'Before/After' 비교 이미지 및 OEA 그래프 시각화 (CSS/애니메이션 로직 포함).",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-30T02:12:42.331Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T02-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T02-11/_report.md\n- 현빈: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하\n- 레오: business 에이전트가 수립한 계획에 따라, 첫 번째 영상의 구체적인 기획안(스크립트 초안 및 목표 시청자)을 작성하고, 필요한 핵심 메시지\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하여 유튜브 콘텐츠 제작 계획을 수립하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-05-30T02:13:54.497Z"
+    },
+    {
+      "id": "20260530021242-hsw2",
+      "title": "**산출물 경로:** `sessions/2026-05-30T02-15/designer_assets_ep1.json`",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-30T02:12:42.345Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T02-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T02-11/_report.md\n- 현빈: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하\n- 레오: business 에이전트가 수립한 계획에 따라, 첫 번째 영상의 구체적인 기획안(스크립트 초안 및 목표 시청자)을 작성하고, 필요한 핵심 메시지\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하여 유튜브 콘텐츠 제작 계획을 수립하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-05-30T02:13:54.511Z"
+    },
+    {
+      "id": "20260530021324-5xr6",
+      "title": "**썸네일:** Before(혼란스러운 화면) vs After(OEA 프로세스 다이어그램) 비교 이미지 사용.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-30T02:13:24.215Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T02-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T02-11/_report.md\n- 현빈: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하\n- 레오: business 에이전트가 수립한 계획에 따라, 첫 번째 영상의 구체적인 기획안(스크립트 초안 및 목표 시청자)을 작성하고, 필요한 핵심 메시지\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하여 유튜브 콘텐츠 제작 계획을 수립하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-05-30T02:13:54.523Z"
+    },
+    {
+      "id": "20260530021324-c0em",
+      "title": "**게시 시간:** 평일 점심시간 직후 (12:00 ~ 13:30) 또는 저녁 피크타임 (19:00 ~ 21:00).",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-30T02:13:24.228Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T02-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T02-11/_report.md\n- 현빈: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하\n- 레오: business 에이전트가 수립한 계획에 따라, 첫 번째 영상의 구체적인 기획안(스크립트 초안 및 목표 시청자)을 작성하고, 필요한 핵심 메시지\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하여 유튜브 콘텐츠 제작 계획을 수립하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-05-30T02:13:54.537Z"
+    },
+    {
+      "id": "20260530021324-g766",
+      "title": "**다음 액션:** 💼 현빈에게 랜딩 페이지 MVP 코드 작성 지시.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-30T02:13:24.239Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T02-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T02-11/_report.md\n- 현빈: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하\n- 레오: business 에이전트가 수립한 계획에 따라, 첫 번째 영상의 구체적인 기획안(스크립트 초안 및 목표 시청자)을 작성하고, 필요한 핵심 메시지\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하여 유튜브 콘텐츠 제작 계획을 수립하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-05-30T02:13:54.549Z"
     }
   ]
 }
