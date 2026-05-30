@@ -1495,6 +1495,81 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-30T02-11/_report.md\n- 현빈: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하\n- 레오: business 에이전트가 수립한 계획에 따라, 첫 번째 영상의 구체적인 기획안(스크립트 초안 및 목표 시청자)을 작성하고, 필요한 핵심 메시지\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 수익화 상품 플로우맵(Product_Flowmap_Master_V1.md)을 기반으로, 다음 영상의 주제 선정 및 CTA 트리거 포인트를 확정하여 유튜브 콘텐츠 제작 계획을 수립하라.\n> 🔧 **도구 실행**: _(",
       "completedAt": "2026-05-30T02:13:54.549Z"
+    },
+    {
+      "id": "20260530032732-uaid",
+      "title": "**MVP 코드 완성도:** `Product_Flowmap_Master_V1.md` 정의된 모든 CTA 트리거 포인트가 HTML/CSS 로 정확히 구현되었는지 최종 테스트 완료.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-30T03:27:32.245Z",
+      "status": "pending",
+      "sessionDir": "2026-05-30T03-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260530032732-r0lg",
+      "title": "**파이어볼/트래커 설치:** YouTube 분석을 위한 UTM 파라미터 및 파이어볼 코드가 랜딩 페이지에 정상 적용됨.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-30T03:27:32.255Z",
+      "status": "pending",
+      "sessionDir": "2026-05-30T03-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260530032732-vfz0",
+      "title": "**호스팅 배포:** MVP 코드 배포 환경 (Vercel, Netlify 등) 에 링크가 안정적으로 연결되었는지 확인.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-30T03:27:32.276Z",
+      "status": "pending",
+      "sessionDir": "2026-05-30T03-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260530032732-kp0g",
+      "title": "**썸네일 최종 렌더링:** `Final_Thumbnail_Deployment_V3.0.md` 사양에 따른 Before/After 비교 이미지 생성 및 압축 최적화 완료.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-30T03:27:32.288Z",
+      "status": "pending",
+      "sessionDir": "2026-05-30T03-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260530032732-girv",
+      "title": "**영상 CTA 오버레이:** 15~60 초 구간에서 구독/좋아요 버튼 애니메이션이 정상 작동하는지 영상 내 확인.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-30T03:27:32.319Z",
+      "status": "pending",
+      "sessionDir": "2026-05-30T03-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
