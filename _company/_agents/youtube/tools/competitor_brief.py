@@ -57,7 +57,10 @@ def main():
         sys.exit(1)
     top_n = int(cfg.get("TOP_N_PER_CHANNEL", 5))
     lookback = int(cfg.get("LOOKBACK_DAYS", 30))
-    ollama_url = (acct.get("OLLAMA_URL") or "http://127.0.0.1:11434").rstrip("/")
+    ollama_url_raw = (acct.get('OLLAMA_URL') or 'http://127.0.0.1:11434')
+    import random
+    ollama_urls = [u.strip().rstrip('/') for u in ollama_url_raw.split(',') if u.strip()]
+    random.shuffle(ollama_urls)
     model = acct.get("MODEL") or ""
 
     try:
@@ -100,19 +103,6 @@ def main():
     data_text = "\n".join(f"[{r['channel']}] {r['views']:,}회 · {r['published']} · {r['title']}"
                            for r in snapshot[:25])
 
-    if not model:
-        try:
-            r = requests.get(f"{ollama_url}/api/tags", timeout=5)
-            r.raise_for_status()
-            models = [m["name"] for m in r.json().get("models", [])]
-            if not models:
-                print("❌ 로컬 LLM에 모델이 없어요.")
-                sys.exit(1)
-            model = models[0]
-        except Exception as e:
-            print(f"❌ LLM 연결 실패: {e}")
-            sys.exit(1)
-
     prompt = f"""당신은 유튜브 알고리즘 전략가입니다. 아래는 경쟁 채널들의 최근 {lookback}일간 상위 영상 데이터입니다.
 
 [경쟁 데이터]
@@ -132,15 +122,33 @@ def main():
 ## 4) 한 줄 요약
 - 다음 영상의 핵심 컨셉을 한 문장으로
 """
-    print("🧠 [LLM 분석 중...]")
-    try:
-        r = requests.post(f"{ollama_url}/api/generate",
-                          json={"model": model, "prompt": prompt, "stream": False},
-                          timeout=240)
-        r.raise_for_status()
-        brief = r.json().get("response", "").strip()
-    except Exception as e:
-        print(f"❌ LLM 실패: {e}")
+    
+    brief = ""
+    for current_url in ollama_urls:
+        print(f"🧠 [LLM 연결 시도... URL: {current_url}]")
+        current_model = model
+        try:
+            if not current_model:
+                r = requests.get(f"{current_url}/api/tags", timeout=5)
+                r.raise_for_status()
+                models = [m["name"] for m in r.json().get("models", [])]
+                if not models:
+                    print(f"⚠️ {current_url} 에 설치된 모델이 없습니다. 다음 서버 시도...")
+                    continue
+                current_model = models[0]
+            
+            r = requests.post(f"{current_url}/api/generate",
+                              json={"model": current_model, "prompt": prompt, "stream": False},
+                              timeout=240)
+            r.raise_for_status()
+            brief = r.json().get("response", "").strip()
+            break
+        except Exception as e:
+            print(f"❌ 실패 ({current_url}): {e}")
+            continue
+
+    if not brief:
+        print("❌ 모든 LLM 서버 연결 실패.")
         sys.exit(1)
 
     ts = time.strftime('%Y-%m-%d %H:%M')
