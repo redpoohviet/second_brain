@@ -579,10 +579,10 @@
       "owner": "user",
       "createdAt": "2026-05-29T01:48:58.726Z",
       "status": "pending",
-      "nudges": 1,
+      "nudges": 2,
       "priority": "normal",
       "preAlarmsSent": [],
-      "_lastNudgeAt": "2026-05-30T02:40:09.195Z"
+      "_lastNudgeAt": "2026-05-31T04:30:44.785Z"
     },
     {
       "id": "20260529032826-xvnp",
